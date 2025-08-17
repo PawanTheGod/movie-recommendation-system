@@ -128,16 +128,33 @@ dmypy.json
 # Pyre type checker
 .pyre/
 
-# if using pycharm
-.idea
+# Streamlit
+.streamlit/
 
-# if using VScode
-.vscode
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
 
-# add secret keys or API keys here
-configs/secrets.yaml
+# OS
+.DS_Store
+Thumbs.db
 
-# add your env folder here if its there
+# Project specific
+*.pkl
+!artifacts/*.pkl
+.env
+config.ini
+secrets.json
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.temp
 
 
 
